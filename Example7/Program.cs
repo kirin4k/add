@@ -22,8 +22,8 @@ int x = xa, y = xb;
 
 int count = 0;
 
- while(count<100000){
-    int what = new Random().Next(0,3);
+ while(count<1){
+    int what = 0;
     if(what ==0){
         x = (x+xa)/2;
         y = (y+ya)/2; 

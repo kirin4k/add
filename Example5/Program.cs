@@ -1,8 +1,11 @@
-﻿Console.WriteLine("Add your name");
-string username = Console.ReadLine();
-
-if (username.ToLower() == "aibar"){
-    Console.WriteLine("Hello Mr.Aibar");
-} else {
-    Console.WriteLine("Hello unknown User");
-}
+﻿int number = 8;
+ int i = 1;
+      while(i <= number)
+      {
+      if (i % 2 == 0)
+      {
+      Console.Write($"{i}\t");
+      }
+      i++;
+      }
+      
