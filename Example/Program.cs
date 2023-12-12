@@ -2,12 +2,12 @@
 
 
 int firstNumber, secondNumber;
-firstNumber = 5;
-secondNumber = 6;
+firstNumber = 6;
+secondNumber = 5;
 
 if (firstNumber > secondNumber)
-{Console.WriteLine($"Первое число `{firstNumber}` больше чем второе число `{secondNumber}`");}
+{Console.WriteLine($"Первое число '{firstNumber}' больше чем второе число '{secondNumber}'");}
 if (firstNumber < secondNumber)
-{Console.WriteLine($"Первое число `{firstNumber}` меньше чем второе число `{secondNumber}`");}
+{Console.WriteLine($"Первое число '{firstNumber}' меньше чем второе число '{secondNumber}'");}
 if (firstNumber == secondNumber)
-{Console.WriteLine($"Введенные числа равны `{firstNumber}`");}
+{Console.WriteLine($"Введенные числа равны '{firstNumber}'");}
