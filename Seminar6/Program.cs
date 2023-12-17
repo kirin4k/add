@@ -1,4 +1,4 @@
-﻿// using System.Text;
+﻿using System.Text;
 
 // //#1.1
 
@@ -113,4 +113,72 @@
 //        str += stroka[i];
 //     }
 //     return str;
+// }
+
+// #Dom1
+// char[,] ch = new char[2,5];
+// FillArray(ch);
+// PrintArray(ch);
+// string str = NewString(ch);
+// Console.WriteLine(str);
+
+// void FillArray(char[,] ch){
+// for(int i=0; i< ch.GetLength(0); i++){
+//     for(int j =0 ; j< ch.GetLength(1); j++){
+//         Console.WriteLine("Введите символ: ");
+//         ch [i , j] = Convert.ToChar(Console.ReadLine());
+//     }
+// }
+// }
+
+// void PrintArray (char[,] array){
+//     for(int i=0; i< array.GetLength(0); i++){
+//     for(int j =0 ; j< array.GetLength(1); j++){
+//         Console.Write(array[i, j] + ";");
+//     }
+//     Console.WriteLine();
+// }
+// }
+
+// string NewString(char[,] ch){
+//     StringBuilder strB = new StringBuilder();
+//     for(int i=0; i< ch.GetLength(0); i++){
+//         for (int j = 0; j < ch.GetLength(1); j++)
+//         {
+//             strB.Append(ch[i,j]);
+//         }
+//     }
+//     return strB.ToString();
+// }
+
+// #Dom2
+
+// string str = "HELLO WoRlD";
+// string str1 = str.ToLower();
+// Console.WriteLine(str1);
+
+// #Dom3
+
+// string input = "12321";
+// Console.WriteLine(IsPalindrome(input) ? "Да" : "Нет");
+
+// bool IsPalindrome(string str)
+// {
+// string normalized = new string(str.Where(char.IsLetterOrDigit).ToArray()).ToLower();
+// return normalized.SequenceEqual(normalized.Reverse());
+// }
+
+// #Dom4
+// string input = "Are you serious ?";
+// string result = ReverseWords(input);
+// Console.WriteLine(result);
+
+// string ReverseWords(string str)
+// {
+// // Разделение строки на слова
+// string[] words = str.Split(' ');
+// // Обращение порядка слов
+// Array.Reverse(words);
+// // Соединение слов обратно в строку с пробелами
+// return string.Join(" ", words);
 // }
